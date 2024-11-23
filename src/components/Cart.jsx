@@ -36,7 +36,7 @@ export default function Cart() {
               )
             })
           }
-          <p className="text-lg font-medium underline">Total price: {cart.totalPrice}</p>
+          <p className="text-lg font-medium underline">Total price: ${cart.totalPrice}</p>
         </section>
         <form method="dialog">
           <button className="bg-red-950 text-white p-2 rounded">close</button>
